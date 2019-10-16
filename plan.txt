@@ -1,0 +1,6 @@
+1. Link everything togather 
+2. apply fonts, and bootstrap etc.
+3. add HTML elements 
+4. make site look presentable via css grid 
+5. Add functionality via Javascript. 
+6. Add sounds and random (video) Background genorator....

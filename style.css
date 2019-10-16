@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/* #header {
+    background-color: #fff;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.7px;  
+} */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #4ef18f;
+    text-align: center;
+    font-size: 3em;
+    padding: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4ef18f;
+    text-align: center;
+    font-size: 2.3em;
+    padding: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    padding-top: 70px;
+    margin: 0px; 
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 15px;
+    margin: 0px; 
+}
+
+
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; 
+    text-align: center;
+}
+
+.search-text {
+    padding-top: 15px;
+}
+
+#new-task {
+    padding-top: 100px;
+}
+
+#submit-button {
+    padding-top: 5px;
+
+}
+
+#Submit {
+    background-color: #4ef18f;
+    padding:0.3em 1.2em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:2em;
+    color: #fff;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;   
+}
+

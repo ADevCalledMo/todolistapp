@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <h1>Todo App</h1>
+    <h2>By Mozes</h2>
+</div>
+<div id="new-task">
+    <div>
+        <form id='task-form'>
+            <input id="add-task" type="text" placeholder="What would you like to do?" name="addTask"> 
+            <div id="submit-button">
+                <button id="Submit">Submit</button>
+                <label>
+                    <input type="checkbox" name="hideCompleted" id="hide-completed"> Hide completed
+                </label>
+            </div>
+        </form>
+    </div>
+    <div class="search-text">
+        <input id="search-task" type="text" placeholder="Search your tasks" name="searchTasks">
+    </div>
+    <div id='tasks'></div>
+    </div>
+    <script src="app-function.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>
